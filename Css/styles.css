@@ -65,7 +65,7 @@ width: 360px;
 
 .dsmovie-card img {
     border-radius: 8px 8px 0 0;
-width: 100%;
+    width: 100%;
 }
 .dsmovie-card-descripition{
     background-color: var(--white);
