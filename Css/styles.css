@@ -55,7 +55,7 @@ a, a:hover{
 }
 
 #dsmovie-card-list {
-    padding: 40px 0;
+    padding: 0 10px;
 }
 
 
@@ -157,4 +157,51 @@ width: 100%;
 .dsmovie-form-descripition h3 {
     font-size: 13px;
     font-weight: 700;
+}
+
+.dsmovie-pagination-container {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dsmovie-pagination-box {
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dsmovie-pagination-box p {
+    margin: 0px;
+    font-size: 12px;
+    color: var(--color-primary);
+    font-weight: 400;
+}
+
+.dsmovie-pagination-box button{
+width: 40px;
+height: 40px;
+border: 1px solid var(--color-primary);
+border-radius: 4px;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.dsmovie-pagination-box button img {
+    filter:  brightness(0) saturate(100%) invert(18%) sepia(37%) saturate(6926%) hue-rotate(244deg) brightness(92%) contrast(80%); 
+}
+
+.dsmovie-pagination-box button:disabled {
+    border: 1px var(--text-light-gray);
+}
+
+.dsmovie-pagination-box button:disabled img{
+    filter: unset;
+}
+
+.dsmovie-flip-horizontal {
+    transform: rotate(180deg);
 }
